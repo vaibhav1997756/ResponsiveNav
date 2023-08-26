@@ -12,7 +12,7 @@ const Navbar = () => {
       <a href="/" className="brand-name">
         MacroSoft
       </a>
-      <button className="hamburger"    onClick={() => {
+      <button className="hamburger" onClick={() => {
           setIsNavExpanded(!isNavExpanded)
         }}>
         {/* icon from heroicons.com */}
